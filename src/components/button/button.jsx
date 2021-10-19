@@ -4,6 +4,6 @@ import React from 'react';
 
 export const Button = (params) => {
     return (
-    <a href="#" className={params._class}>{params._text}</a>
-    )    
+        <a href="#" className={params._class}>{params._text}</a>
+    )
 }
