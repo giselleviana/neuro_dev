@@ -1,0 +1,64 @@
+
+._header{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: var(--white_transparent);
+    box-shadow: 0.1rem 0.1rem 1rem var(--black);
+    position: absolute;
+    box-sizing: content-box;
+}
+
+._h1_logo{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:var(--black);
+    margin-left: 3rem;
+}
+
+._h1_logo span{
+    font-size: 2.5rem;
+    color:var(--blue);
+    font-weight: bold;
+}
+
+._nav{
+    width: 80vw;
+    margin:0 auto 0 auto;
+    display: flex;
+}
+._nav ul{
+    /* width: 100rem; */
+    display: flex;
+    align-items: center;
+    margin:0 auto 0 auto;
+
+}
+
+._nav ul li{
+    width: auto;
+    display: inline;
+    margin:0 0 0 1rem;
+}
+
+._a_li{
+    font-size: 1.6rem;
+    color:var(--black);
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+    align-items: center;
+    border-bottom: 0.2rem solid rgba(255,255,255,.0) ;
+    /* transition:0.2s; */
+}
+
+._a_li:hover{
+    border-bottom: 0.2rem solid var(--blue);
+    transition:0.3s linear;
+}
+
+.a_li:not( :hover){
+    border-bottom: 0.2rem solid rgba(255,255,255,.0) ;
+    transition:0.3s linear;
+}
+

@@ -1,0 +1,68 @@
+._button_appointment{
+    font-size: 1.5rem;
+    width:12rem;
+    height: 3rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--white);
+    background-color: var(--blue);
+    border-radius:1rem;
+    padding: 0.8rem 2rem;
+    margin:0rem 2rem 0rem 0rem;
+    box-sizing: content-box;
+}
+._button_appointment:hover{
+    box-shadow: 0.1rem 0.1rem 0.5rem var(--black);
+    transition:0.3s linear;
+}
+._button_appointment:not(:hover){
+    box-shadow: none;
+    transition:0.3s linear;
+}
+
+._button_now_more{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    width:12rem;
+    height: 3rem;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--blue);
+    border-radius:1rem;
+    padding: 0.8rem 2rem;
+    margin:0rem 2rem 0rem 0rem;
+    border:0.2rem solid  var(--blue);
+}
+._button_now_more:hover{
+    box-shadow: 0.1rem 0.1rem 0.5rem var(--black);
+    transition:0.3s linear;
+}
+._button_now_more:not(:hover){
+    box-shadow: none;
+    transition:0.3s linear;
+}
+
+._button_home_appointment{
+    font-size: 1.5rem;
+    width:19rem;
+    height: 3rem;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--white);
+    background-color: var(--blue);
+    border-radius:1rem;
+    padding: 0.8rem 2rem;
+    margin:0rem 2rem 0rem 0rem;
+    /* box-sizing: content-box; */
+}
+._button_home_appointment:hover{
+    box-shadow: 0.1rem 0.1rem 0.5rem var(--black);
+    transition:0.3s linear;
+}
+._button_home_appointment:not(:hover){
+    box-shadow: none;
+    transition:0.3s linear;
+}
