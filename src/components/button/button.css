@@ -56,7 +56,6 @@
     border-radius:1rem;
     padding: 0.8rem 2rem;
     margin:0rem 2rem 0rem 0rem;
-    /* box-sizing: content-box; */
 }
 ._button_home_appointment:hover{
     box-shadow: 0.1rem 0.1rem 0.5rem var(--black);
@@ -65,4 +64,18 @@
 ._button_home_appointment:not(:hover){
     box-shadow: none;
     transition:0.3s linear;
+}
+
+._button_contact_send{
+    font-size: 1.5rem;
+    position: relative;
+    width:12rem;
+    height: 3rem;
+    color:var(--white);
+    background-color: var(--blue);
+    border-radius:1rem;
+    padding: 0.8rem 2rem;
+    margin:2rem auto 0rem 0rem;
+    border:none;
+    cursor: pointer;
 }
